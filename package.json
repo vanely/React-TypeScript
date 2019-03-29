@@ -1,0 +1,33 @@
+{
+  "name": "ReactWithTypeScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run webpack-build && node server.js",
+    "build": "./node_modules/.bin/webpack",
+    "webpack-build": "webpack --config webpack.config.js",
+    "webpack-watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "Vanely Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "typescript": "^3.3.4000"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "html-webpack-plugin": "^3.2.0",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-middleware": "^3.6.1",
+    "webpack-hot-middleware": "^2.24.3"
+  }
+}
