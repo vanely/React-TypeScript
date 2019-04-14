@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
+  mode: 'none',
   entry: {
     app: ['./src/app/App.tsx', 'webpack-hot-middleware/client'],
     vendor: ['react', 'react-dom']
